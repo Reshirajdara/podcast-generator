@@ -7,9 +7,9 @@ git config --global user.email "${INPUT_EMAIL}"
 git config --global --add safe.directory /github/workspace
 
 
-python3 /urs/bin/feed.py
+python3 /usr/bin/feed.py
 
-git ass -A && git commit -m "Update Feed"
+git add -A && git commit -m "Update Feed"
 
 git push --set-upstream origin main
 
