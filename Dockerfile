@@ -16,7 +16,7 @@ COPY feed.py /usr/bin/feed.py
 COPY entrypoint.sh /entrypoint.sh
 
 # Ensure the entrypoint script has execution permissions
-RUN chmod +x /entrypoint.sh
+#RUN chmod +x /entrypoint.sh
 
 # Set the entrypoint to the entrypoint script
 ENTRYPOINT ["/entrypoint.sh"]
